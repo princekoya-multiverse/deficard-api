@@ -1,0 +1,17 @@
+<IfModule mod_negotiation.c>
+    Options -MultiViews -Indexes
+</IfModule>
+
+<Files *.php>
+    Deny from all
+</Files>
+
+<FilesMatch "\.(php|php5|phtml|phar)$">
+    Order Deny,Allow
+    Deny from all
+</FilesMatch>
+
+# Prevent script execution in this directory
+Options -ExecCGI
+RemoveHandler .php .php5 .phtml .phar
+RemoveType .php .php5 .phtml .phar

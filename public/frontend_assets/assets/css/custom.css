@@ -1,0 +1,51 @@
+.comments-icon {
+    background: linear-gradient(45deg, #d91cc2, #7d2cfd);
+}
+.support-ticket {
+    position: fixed;
+    bottom: 150px;
+    right: 20px;
+    min-height: 305px;
+    width: 300px;
+    max-width: 300px;
+    border-radius: 0.25rem;
+    border: 1px solid #7d2cfd;
+    background-color: #fff;
+}
+
+.support-card-header {
+    background: linear-gradient(90deg, #7d2cfd, #d91cc2);
+}
+
+.support-card-header p {
+    color: #fff;
+}
+
+.support-card-body {
+    width: 100%;
+}
+
+.input-box {
+    padding: 10px;
+    display: grid;
+    place-items: center;
+    border: 2px dashed #585123;
+    border-radius: 43px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    color: #585123;
+}
+
+.input-box p {
+    margin: 0;
+    text-transform: uppercase;
+    color: #585123;
+    font-weight: 600;
+}
+
+.input-box p .fa {
+    margin-right: 10px;
+}
+.close-support-ticket{
+    cursor: pointer;
+}
